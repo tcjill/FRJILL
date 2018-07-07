@@ -51,7 +51,7 @@ $(function() {
         })
     });
 
-
+describe('The menu', function(){})
     /* TODO: Write a new test suite named "The menu" */
 
         /* TODO: Write a test that ensures the menu element is
