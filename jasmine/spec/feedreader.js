@@ -90,9 +90,9 @@ describe('Initial Entries', function(){
             entriesStart = $('.feed').find(allFeeds.url);
                 done();
             });
-            loadFeed(1, function (){ 
-                entriesEnd = $('.feed').find(allFeeds.url);
-                done();
+                loadFeed(1, function (){ 
+                    entriesEnd = $('.feed').find(allFeeds.url);
+                    done();
              });
          });
         it('new feed different than old one', function (){
