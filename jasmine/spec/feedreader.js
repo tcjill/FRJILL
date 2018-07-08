@@ -72,8 +72,8 @@ describe('Initial Entries', function(){
         });
     });
 
-        it('does entry have more than 0 entries', function(){
-            expect($('.entry .feed')).toBeDefined();
+        it('does entry has more than 0 entries', function(){
+            expect($('.entry .feed').length).toBeDefined(0);//).toBeDefined();
         })
 
 });
