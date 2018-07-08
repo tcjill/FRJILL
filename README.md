@@ -38,5 +38,10 @@ Reviewed the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/
 # Resources used:
 1. Slack cohort help various students
 2. M. Kroth Facebook Group 
+
 3 https://jasmine.github.io/2.0/introduction
+
 4 https://devhints.io/jasmine
+
+# How to see my project:
+Go to Github and download or clone https://github.com/tcjill/FRJILL.git
