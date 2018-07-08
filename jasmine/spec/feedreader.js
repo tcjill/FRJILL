@@ -81,7 +81,22 @@ describe('The menu', function(){})
        
 
     /* TODO: Write a new test suite named "Initial Entries" */
-describe('Initial Entries', function(){})
+describe('Initial Entries', function(){
+
+        beforeEach(function (done){
+            loadFeed(0, function (){
+                 done();
+        });
+    });
+
+        it('does entry have more than 0 entries', function(){
+            expect($('.entry .feed')).toBeDefined();
+        })
+
+});
+describe('New Feed Selection', function(){
+    
+})
 
         /* TODO: Write a test that ensures when the loadFeed
          * function is called and completes its work, there is at least
