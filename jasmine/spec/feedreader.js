@@ -52,6 +52,12 @@ describe('The menu', function(){})
         it ('menu displays when clicked and hides when clicked again', function(){
             expect($('body').hasClass('menu-hidden')).toBe(true);
         });
+        it('works on toggle click event', function (){
+            $('.menu-icon-link').trigger('click');
+            expect($('body').hasClass('menu-hidden')).toBe(false);
+            $('.menu-icon-link').trigger('click');
+            expect($('body').hasClass('menu-hidden')).toBe(true);
+        })
 
       
     
