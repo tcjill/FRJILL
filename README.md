@@ -44,4 +44,5 @@ Reviewed the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/
 4. https://devhints.io/jasmine
 
 # How to see my project:
-Go to Github and download or clone https://github.com/tcjill/FRJILL.git
+Go to Github and download or clone https://github.com/tcjill/FRJILL.git  You will be able to see all related files. Open index.html to see the Jasmine testing in action.
+
